@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#fond{
+    height : 100vh;
+    width : 100vw;
+    position : fixed;
+    top:0px;
+    left : 0px;
+    z-index: -10;
+}
+
+#main{
+    height : 100vh;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    background-color:transparent;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    display: block;
+    min-width: 120px;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    background-color: #1ABC9C;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: all 1s;
+}
+
+.menu a:hover {
+    background-color: darkblue;
+    color: #ffe843;
+    border-color: #ffe843;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  .dropdown:hover .dropbtn a{
+    background-color: darkblue;
+  }
+
+
+
+.b{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    color: black;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: block;
+    align-items:center;
+    color: block;
+    flex-basis: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px;
+    border-color: transparent;
+    border-style: solid;
+    background-color: white;
+
+}
+.c1{
+    margin: 10px;
+    font-weight: 900;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.c2{
+    margin: 5px;
+    font-size:x-large;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.c3{
+    margin: 5px;
+    font-weight: 900;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.c4{
+    margin: 10px;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.c31{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-color: black;
+    align-items: center;
+    color: black;
+    flex-basis: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+.d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: block;
+    align-items:center;
+    color: block;
+    flex-basis: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px;
+    border-color: transparent;
+    border-style: solid;
+    background-color: white;
+
+}
+.d1{
+    margin: 10px;
+    font-weight: 900;
+    font-size:x-large;
+}
+
+.d31{
+    margin: 10px;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-color: black;
+    align-items: center;
+    color: black;
+    flex-basis: 20%;
+    margin: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.d21{
+    margin: 10px;
+    font-weight: 900;
+    font-size:large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.e{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: block;
+    align-items:center;
+    color: block;
+    flex-basis: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px;
+    border-color: transparent;
+    border-style: solid;
+    background-color: white;
+
+}
+.e1{
+    margin: 10px;
+    font-weight: 900;
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.e11{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: 900;
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.e2{
+    margin: 5px;
+    font-size:x-large;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.e3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    justify-content: space-evenly;
+
+}
+
+.e31{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    flex-basis: 20%;
+    margin: 10px;
+    border: 3px;
+}
+
+.e311{
+    margin: 10px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.e32{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    flex-basis: 20%;
+    margin: 10px;
+    border: 3px;
+    
+}
+
+.e312{
+    margin: 10px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.e33{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    font-size: large;
+}
+
+footer {
+    height: 100px;
+    background-color: darkgrey;
+    text-align: center;
+}
